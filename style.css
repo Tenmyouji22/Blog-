@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: orange;
+    color:aliceblue;
+
+}
+header{
+    background-color:red;
+    color : white;
+    padding:  3rem 2rem;
+}
+
+#title{
+font-size: 4rem;
+text-align: center;
+}
+
+.container{
+width: 400px;
+margin: 0 auto;
+}
+
+.container .post{
+    background-color: red;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 0.25rem 0;
+}
