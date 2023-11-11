@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: orange;
-    color:aliceblue;
+    background-color: rgb(38, 37, 41);
+    color:rgb(170, 178, 184);
 
 }
 header{
@@ -11,7 +11,7 @@ header{
 }
 
 #title{
-font-size: 4rem;
+font-size: 3rem;
 text-align: center;
 }
 
@@ -23,6 +23,19 @@ margin: 0 auto;
 .container .post{
     background-color: red;
     margin: 1rem 0;
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 0.25rem 0;
+    transition: box-shadow 1s ease-out;
+}
+
+section article h2, section article p{
+    margin: 2rem;
+}
+
+section article img{
+    width: 400px;
+}
+
+.container .post:hover{
+    box-shadow: 0 0.1rem 0.4rem white
 }
